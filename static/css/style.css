@@ -3,6 +3,8 @@
     width: 100%;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.507) 0px 20px 20px 5px;
+    display: flex;
+    justify-content: space-around;
 }
 
 body {
@@ -14,8 +16,24 @@ body {
 .image_logo {
     padding: 5px;
     width: 13%;
+    margin-right: 300px;
 }
 
 .image_logo img {
     width: 100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.637);
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 50vh;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }

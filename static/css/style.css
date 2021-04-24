@@ -1,5 +1,5 @@
 .navigation_bar {
-    height: 50px;
+    height: 56px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.507) 0px 20px 20px 5px;
@@ -9,4 +9,13 @@ body {
     background-image: url(../Images/bg.jpg);
     background-size: cover;
     margin: 0;
+}
+
+.image_logo {
+    padding: 5px;
+    width: 13%;
+}
+
+.image_logo img {
+    width: 100%;
 }

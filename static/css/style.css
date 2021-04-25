@@ -1,3 +1,12 @@
+body {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.082) ,
+     rgba(255, 255, 255, 0)), url(../Images/bg.jpg) ;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar ////////////////////////////////////////////////////////////////////////////*/
 .navigation_bar {
     height: 56px;
     width: 100%;
@@ -7,11 +16,6 @@
     justify-content: space-around;
 }
 
-body {
-    background-image: url(../Images/bg.jpg);
-    background-size: cover;
-    margin: 0;
-}
 
 .image_logo {
     padding: 5px;
@@ -35,7 +39,6 @@ body {
     list-style: none;
     width: 50vh;
     justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
@@ -48,3 +51,27 @@ body {
     color: rgb(255,192,87);
     border-bottom: 2px solid red;
 }
+/* End of Navigation Bar /////////////////////////////////////////////////////////////////////*/
+
+/* Introduction //////////////////////////////////////////////////////////////////////////////*/
+.intro {
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+.intro h1{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.intro h3 {
+    color:rgba(0, 0, 0, 0.438);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* End of Introduction ///////////////////////////////////////////////////////////////////////*/

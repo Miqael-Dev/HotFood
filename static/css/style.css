@@ -8,7 +8,7 @@ body {
 
 /* Navigation Bar ////////////////////////////////////////////////////////////////////////////*/
 .navigation_bar {
-    height: 56px;
+    height: 53px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.507) 0px 20px 20px 5px;
@@ -18,7 +18,7 @@ body {
 
 
 .image_logo {
-    padding: 5px;
+    padding: 3px;
     width: 13%;
     margin-right: 300px;
 }
@@ -30,16 +30,17 @@ body {
 .nav-links a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.637);
-    font-weight: 700;
+    font-weight: 100;
     
 }
 
 .nav-links {
+    margin-top: 0 auto;
     display: flex;
     list-style: none;
     width: 50vh;
     justify-content: space-around;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .active {

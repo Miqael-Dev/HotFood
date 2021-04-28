@@ -31,7 +31,8 @@ body {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.637);
     font-weight: 100;
-    
+    padding: 10px;
+
 }
 
 .nav-links {
@@ -44,13 +45,16 @@ body {
 }
 
 .active {
-    color: rgb(255,192,87);
-    border-bottom: 2px solid red;
+    color: white;
+    background: red;
+    border-radius: 4px;
+    padding: 10px;
 }
 
 .nav-links a:hover {
-    color: rgb(255,192,87);
-    border-bottom: 2px solid red;
+    color: rgba(0, 0, 0, 0.637);
+    background-color: rgb(255,192,87);
+    border-radius: 4px
 }
 /* End of Navigation Bar /////////////////////////////////////////////////////////////////////*/
 

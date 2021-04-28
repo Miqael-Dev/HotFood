@@ -2,16 +2,18 @@ body {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.082) ,
      rgba(255, 255, 255, 0)), url(../Images/bg.jpg) ;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation Bar ////////////////////////////////////////////////////////////////////////////*/
 .navigation_bar {
-    height: 53px;
+    height: 52px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.507) 0px 20px 20px 5px;
+    border-bottom: 1px solid rgb(199, 199, 199);
     display: flex;
     justify-content: space-around;
 }
@@ -36,32 +38,32 @@ body {
 }
 
 .nav-links {
-    margin-top: 0 auto;
     display: flex;
     list-style: none;
-    width: 50vh;
+    width: 55vh;
     justify-content: space-around;
-    font-size: 15px;
+    font-size: 16px;
 }
 
-.active {
+.active a{
     color: white;
-    background: red;
+    background-color: red;
     border-radius: 4px;
     padding: 10px;
 }
 
 .nav-links a:hover {
-    color: rgba(0, 0, 0, 0.637);
-    background-color: rgb(255,192,87);
-    border-radius: 4px
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    transition: 0.05s ease-in-out;
 }
 /* End of Navigation Bar /////////////////////////////////////////////////////////////////////*/
 
 /* Introduction //////////////////////////////////////////////////////////////////////////////*/
 .intro {
     padding: 25px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 10px;
 
 }
@@ -76,6 +78,37 @@ body {
     color:rgba(0, 0, 0, 0.438);
     font-size: 20px;
     font-weight: lighter;
+}
+
+.bi {
+    font-size: 25px;
+    padding: 5px;
+    color: rgba(255, 37, 37, 0.733);
+}
+
+.btns {
+    margin-top: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn {
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    outline-color: rgb(252, 52, 95);
+}
+
+.first {
+    background-color: rgba(252, 25, 25, 0.795);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.second {
+    background-color: rgba(252, 25, 25, 0.795);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
 }
 
 

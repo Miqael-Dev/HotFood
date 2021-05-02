@@ -6,8 +6,23 @@ body {
     background-attachment: fixed;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.644);
+}
+
+/* Section 1 ////////////////////////////////////////////////////////////////*/
 /* Navigation Bar */
 .navigation_bar {
     height: 52px;
@@ -57,14 +72,14 @@ body {
     border-radius: 4px;
     transition: 0.05s ease-in-out;
 }
-/* End of Navigation Bar /////////////////////////////////////////////////////////////////////*/
+/* End of Navigation Bar */
 
-/* Introduction //////////////////////////////////////////////////////////////////////////////*/
+/* Introduction */
 .intro {
     padding: 25px;
     margin-top: 70px;
     margin-left: 10px;
-    height: 75vh;
+    height: 75%;
 
 }
 
@@ -112,39 +127,48 @@ body {
 }
 
 
-/* End of Introduction ///////////////////////////////////////////////////////////////////////*/
+/* End of Introduction */
+/* End of Section 1 ////////////////////////////////////////////////////////////////////*/
 
-/* Menu ///////////////////////////////////////////////////*/
+/* Section 2 ///////////////////////////////////////////////////////////////////////////*/
+/* Menu */
 .section_2 {
     background: url(../Images/bg_menu.jpg);
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.section_2 p {
-    font-size: 40px;
+.title {
+    font-size: 18px;
     font-weight: bold;
     padding: 20px;
     color: rgba(255, 255, 255, 0.808);
     border-bottom: 1px solid white;
-    width: 100vh;
+    width: 70%;
 }
 
 .menu {
     padding: 30px;
 }
 
+.food-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .food {
     border: 2px solid white;
-    width: 200px;
+    border-radius: 5px;
+    width: 17%;
     padding: 20px;
     color: white;
     line-height: 5px;
 }
 
 .food img {
-    width: 200px;
+    width: 100%;
     
 }
 
@@ -162,13 +186,92 @@ body {
 }
 
 .food button {
-    width: 100px;
-    height: 40px;
+    width: 50%;
+    padding: 10px;
     background: transparent;
     outline: none;
     border: 1px solid white;
     border-radius: 4px;
-    font-size: 15px ;
+    font-size: 80%;
     color: white;
+    cursor: pointer;
+}
+
+.food button:hover {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+.see-more {
+    margin-top: 40px;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.see-more a:hover {
+    background-color: rgba(255, 255, 255, 0.589);
 }
 /* End of Menu*/
+/* End of Section 2 /////////////////////////////////////////////////////////////////////////////////*/
+
+/* Section 3 ////////////////////////////////////////////////////////////////////////////////////////*/
+.section-3 {
+    height: 100%;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.about-us {
+    padding: 13px;
+    margin: 0 auto;
+    width: 75%;
+    height: 65%;
+    background-color: white;
+    border: 8px solid rgb(255,192,87);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin-top: 85px;
+}
+
+.about-us-content {
+    margin: 30px;
+}
+
+.title-2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.about-title {
+    border-bottom: 4px solid red;
+    padding-bottom: 5px;
+}
+
+.ab-content {
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 17px;
+}
+
+.about-us button {
+    background: rgba(255, 21, 21, 0.808);
+    color: white;
+    margin-top: 25px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    width: 100px;
+    height: 30px; 
+}
+
+.
+/* End of Section 3 /////////////////////////////////////////////////////////////////////////////////*/

@@ -54,7 +54,7 @@ body {
 .nav-links {
     display: flex;
     list-style: none;
-    width: 55vh;
+    width: 33%;
     justify-content: space-around;
     font-size: 16px;
 }
@@ -95,7 +95,7 @@ body {
     font-weight: lighter;
 }
 
-.bi {
+.intro .bi {
     font-size: 25px;
     padding: 5px;
     color: rgba(255, 37, 37, 0.733);
@@ -273,5 +273,68 @@ body {
     height: 30px; 
 }
 
-.
+.about-us .bi {
+    font-size: 25px;
+    padding: 5px;
+    color: rgba(255, 37, 37, 0.733);
+}
+
 /* End of Section 3 /////////////////////////////////////////////////////////////////////////////////*/
+
+/* Section 4 ////////////////////////////////////////////////////////////////////////////////////////*/
+.section-4 {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.596);
+}
+
+.section-4 header {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(177, 177, 177, 0.473);
+}
+
+.chef{
+    padding: 20px;
+    width: 20%;
+    margin-top: 40px;
+}
+
+.chef img{
+    width: 100%;
+    background-color: rgba(193, 213, 223, 0.664);
+    border: 3px solid rgba(56, 56, 56, 0.774);
+    border-radius: 50%;
+}
+
+.our-chefs .bi {
+    font-size: 25px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.our-chefs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chef-info{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 2px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.chef-info h3 {
+    border-bottom: 2px solid white;
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+/* End of Section 4 /////////////////////////////////////////////////////////////////////////////////*/

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1024px) {
+    .nav-links {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .navigation_bar h5 {
+        margin-top: 8px;
+        font-size: 18px;
+    }
+
+    .image_logo {
+        width: 15%;
+        margin-top: 3px;
+    }
+
+    .intro {
+        margin-top: 150px;
+        margin-bottom: 39vh;
+    }
+
+    .menu {
+        padding: 20px;
+    }
+
+    .food {
+        width: 23%;
+    }
+
+    .section-5 {
+        height: 90%;
+    }
+
+    .services {
+        width: 95%;
+        padding-bottom: 15vh;
+    }
+
+    .s-1,
+    .s-2,
+    .s-3 {
+        width: 24%;
+    }
+}
